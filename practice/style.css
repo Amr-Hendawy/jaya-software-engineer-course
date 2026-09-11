@@ -19,7 +19,7 @@
     color: red;
 } */
 
-.parent {
+/* .parent {
     &.active {
         color: red;
     }
@@ -32,4 +32,10 @@
 
 .parent {
     background-color: rgb(80, 2, 2);
+} */
+
+.one {
+    &.two {
+        
+    }
 }
