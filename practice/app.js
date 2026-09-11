@@ -30,7 +30,7 @@
 // array + methods
 // isNaN()
 // ?? ||
-// function 
+// function
 // challenges for every week
 
 // function calculator(num1, num2, operator) {
