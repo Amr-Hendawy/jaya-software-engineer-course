@@ -11,3 +11,12 @@
 # start new design html -css ksprr template 2
 
 <!-- https://elzero.org/practical-html-css/ -->
+
+Tasks 
+==> Count Number Greater Than Average
+10 20 15 25 30 ==> count of them 5 /2 ==> 2.5 ==> 2
+
+Find max diffing between numbers
+==> 2 5 9 10 12 23 ==> 21
+
+==> Find the second Repeating Number 
