@@ -12,8 +12,8 @@
 
 <!-- https://elzero.org/practical-html-css/ -->
 
-Tasks 
-==> Count Number Greater Than Average
+Tasks 10/10/2026
+==> Count Number Greater Than Average    
 10 20 15 25 30 ==> count of them 5 /2 ==> 2.5 ==> 2
 
 Find max diffing between numbers
