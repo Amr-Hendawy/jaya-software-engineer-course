@@ -1,0 +1,20 @@
+
+Task (1)
+Task Name :Find the Maximum Difference Between Array Elements
+description:Find the maximum difference between the largest and smallest numbers in an array.
+level:Beginner
+category:Arrays / Problem Solving
+input:[3, 10, 2, 8]
+output:10−2=8.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Task (2)
+Task Name :Find the Maximum Difference Between Array Elements
+description:Find the maximum difference between the largest and smallest numbers in an array.
+level:Beginner
+category:Arrays / Problem Solving
+input:[3, 10, 2, 8]
+output:10−2=8
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

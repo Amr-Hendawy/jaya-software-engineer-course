@@ -389,7 +389,7 @@ video {
 }
 
 .counter-container {
- background-color: #0f748fb3;
+  background-color: #0f748fb3;
   width: 100%;
   height: auto;
   min-height: 400px;
@@ -397,14 +397,14 @@ video {
   margin: auto;
 }
 .counter-container img {
-    height: auto;
+  height: auto;
   width: 100%;
 }
 
 .overlay-counter {
   position: absolute;
   width: 100%;
-    height: auto;
+  height: 100%;
   left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.69);
@@ -412,17 +412,15 @@ video {
 }
 
 .boxs-aboutcontainer {
-  
   width: 100%;
   gap: 90px;
- position: absolute;
+  /* position: absolute;
  left: 0;
- top: 0;
+ top: 0; */
 
-  z-index: 2;
+  /* z-index: 2; */
   text-align: center;
   background-color: #0f738f65;
- 
 }
 .box-about {
   color: white;
@@ -446,6 +444,59 @@ video {
   border-radius: 50%;
   margin: auto;
   margin-bottom: 30px;
+}
+/* ABOUT MOBILE */
+.titleTestimonials-Skills
+{
+  text-align: center;
+}
+.parent-Testimonials-Skills {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: black;
+}
+
+.Testimonials-Skills {
+  display: flex;
+  justify-content: center;
+
+  width: 90%;
+  background-color: #0f738f65;
+}
+.Testimonials {
+  width: 45%;
+  background-color: #19c8fa;
+}
+.Skills {
+  width: 45%;
+}
+.reviews {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+.reviews h4 {
+  width: 100%;
+text-align: right;
+padding-right:100px ;
+}
+.reviews img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.review-content {
+  width: 50%;
+}
+.Skills {
+  width: 30%;
 }
 
 /* desktop  */
@@ -748,7 +799,6 @@ width: 100%;
     margin-top: 14px;
   }
   .box-about i {
-
     display: flex;
     background-color: black;
     justify-content: center;
