@@ -1,0 +1,14 @@
+Task Name: Find the Second Repeated Number in an Array
+
+Description: Find repeated numbers in an array by checking whether the first and last occurrence indices of each 
+element are different, then return the second element in the collected array if it differs from the first element.
+
+Level: Intermediate
+
+Category: Arrays / Searching / Problem Solving
+
+Input: An array of numbers that may contain duplicate elements.
+
+Output: The second repeated number found in the collected array, if it differs from the first.
+
+File Name: findSecondRepeatedNumber.js
