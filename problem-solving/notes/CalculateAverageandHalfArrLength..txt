@@ -1,0 +1,17 @@
+
+
+**Task Name:** Calculate Average and Half Array Length
+
+**Description:** Calculate the average of the array by dividing the sum of its elements by the number of elements. Then divide the number of elements by 2 and return the integer part of the result.
+
+**Level:** Beginner
+
+**Category:** Arrays / Math
+
+**Input:** An array of numbers.
+
+**Output:** The average of the array and half the number of elements, rounded down to the nearest integer.
+
+**File Name:** `calculate-average-and-half-length.js`
+
+**Function Name:** `calculateAverageAndHalfLength`
