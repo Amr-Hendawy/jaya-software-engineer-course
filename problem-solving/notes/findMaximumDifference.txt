@@ -1,0 +1,15 @@
+**Task Name:** Find the Maximum Difference Between Array Elements
+
+**Description:** Find the smallest and largest numbers in an array, then calculate the maximum difference by subtracting the smallest number from the largest number.
+
+**Level:** Beginner
+
+**Category:** Arrays / Math / Problem Solving
+
+**Input:** An array of numbers.
+
+**Output:** The difference between the largest and smallest numbers in the array.
+
+**File Name:** `FindTheMaximumDifferenceBetweenArrayElements.js`
+
+**Function Name:** `FindTheMaximumDifferenceBetweenArrayElements`
