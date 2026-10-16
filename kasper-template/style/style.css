@@ -15,7 +15,9 @@
   justify-content: space-around;
   padding-top: 20px;
   padding-bottom: 20px;
-  z-index: 10;
+  z-index: 1000;
+   top: 0;
+  
   position: absolute;
   color: white;
   width: 100%;
@@ -24,18 +26,22 @@
   position: relative;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
+}
+.menu i{
+
 }
 .drop-down {
   position: fixed;
   top: 80px;
   left: 0;
   padding-left: 20px;
-  background-color: rgba(25, 201, 250, 0.189);
-  width: 100vw;
-  visibility: hidden;
-  z-index: 100;
+  background-color: rgba(25, 201, 250, 0.997);
+  width: 100%;
+  z-index: 1001;
   list-style-type: none;
+  padding-bottom: 20PX;
+  padding-top: 20px;
 }
 
 .menu:has(.fa-bars:hover) .drop-down {
@@ -44,12 +50,12 @@
 .drop-down li {
   margin-top: 10px;
 }
-.drop-down li:last-child {
+/* .drop-down li:last-child {
   padding-bottom: 10px;
-}
+} */
 .fa-search {
-  border-left: 1px solid black;
-  padding-left: 30px;
+  border-left: 1px solid rgb(255, 255, 255);
+  padding-left: 20px;
 }
 /* hr{
 
@@ -454,11 +460,13 @@ video {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  flex-direction: column;
 
   display: flex;
 }
 .Testimonials-Skills {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 80%;
 }
@@ -466,7 +474,7 @@ video {
   width: 100%;
 }
 .titleTestimonials-Skills {
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 .titleTestimonials-Skills p {
@@ -490,7 +498,7 @@ video {
 .reviews h4 {
   width: 100%;
   text-align: right;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 .reviews img {
   border-radius: 50%;
@@ -501,33 +509,53 @@ video {
   width: 50%;
   line-height: 1.7;
 }
+
 .skill {
-  margin: auto;
-  width: 300px;
-  margin-bottom: 20px;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.skill-item {
+  margin-bottom: 15px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  font-size: 15px;
 }
 
 .progress-percent {
-  text-align: right;
-  margin-bottom: 20px;
-  font-weight: bold;
-  color: #19c8fa;
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  padding: 7px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.progress-percent::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid transparent;
+  border-top-color: #000;
 }
 
 .progress-bar {
   width: 100%;
-  height: 20px;
-  background-color: #ddd;
-  border-radius: 10px;
-  overflow: hidden;
+  height: 38px;
+  background-color: #dedbdd;
 }
 
 .progress {
   height: 100%;
-  background-color: #19c8fa;
-  border-radius: 10px;
+  background-color: #19c0ed;
 }
-
 /*  >>>>>>>>>>>>>>>>>>>>>>>>>>Mobile Testimonials-Skills  */
 
 .quote {
@@ -575,23 +603,20 @@ video {
   display: flex;
   flex-direction: column;
   width: 100%;
-/* margin: auto; */
-  
-
+  /* margin: auto; */
 }
 .cards-container {
   display: flex;
   flex-direction: column;
   margin: auto;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   margin-top: 30px;
   margin-bottom: 50px;
   gap: 40px;
   width: 80%;
 }
 .cards {
-  
   margin-top: 30px;
   border-top: 2px solid #19c8fa;
   border-bottom: 2px solid #19c8fa;
@@ -599,7 +624,7 @@ video {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width:90%;
+  width: 90%;
   margin-left: 30px;
   margin-right: 30px;
   margin: auto;
@@ -607,72 +632,61 @@ video {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-.card-elements ul
-{
-display: flex;
-flex-direction: column;
-gap: 20px;
-list-style-type: none;
-
+.card-elements ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
 }
-.card-content hr 
-{
+.card-content hr {
   border: none;
   height: 1px;
   background-color: #19c8fa;
 }
-.card-elements hr 
-{
+.card-elements hr {
   border: none;
   height: 1px;
   background-color: #19c8fa;
 }
-.card-elements li:last-child
-{
+.card-elements li:last-child {
   padding-bottom: 20px;
 }
-.card-content span{
-   display: inline-block;
-   margin-bottom: 20px;
-    font-size: 60px;
-    font-weight:bold;
+.card-content span {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: bold;
 }
-.card-content span::after{
-    content: "/Mo";
-    font-size: 20px;
+.card-content span::after {
+  content: "/Mo";
+  font-size: 20px;
 }
 
-.card-content h3 
-{
+.card-content h3 {
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.card-elements hr:first-child
-{
-  margin-top:40px;
+.card-elements hr:first-child {
+  margin-top: 40px;
 }
-.card-content span::before{
-    content: "$";
-    font-size: 20px;
-    position: relative;
-    top: -40px;
+.card-content span::before {
+  content: "$";
+  font-size: 20px;
+  position: relative;
+  top: -40px;
 }
-.cards-button
-{
+.cards-button {
   margin-top: 20px;
 }
-.cards-button button
-{
+.cards-button button {
   padding: 20px;
   border: 1px solid #19c8fa;
 }
 
-.price-contact 
-{
+.price-contact {
   text-align: center;
 }
-.price-contact button
-{
+.price-contact button {
   font-size: 20px;
   margin-top: 20px;
   padding: 15px 30px;
@@ -682,6 +696,7 @@ list-style-type: none;
 }
 /* price mobile  */
 .email-container-parent {
+  margin-top: 70px;
   width: 100%;
   height: 400px;
 }
@@ -700,8 +715,7 @@ list-style-type: none;
   background-position: top;
   background-repeat: no-repeat;
 }
-.form-overlay
-{
+.form-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -709,29 +723,153 @@ list-style-type: none;
   top: 0;
   background-color: #010c10a9;
 }
-.email-input
-{
+.email-input {
   position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
- margin: auto;
+  top: 30%;
   display: flex;
-  gap: 30px;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  margin: auto;
 }
-.email-content
-{
-  width: 50%;
+.email-content {
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
-.email-content span
-{
+.email-content span {
   color: white;
-line-height: 1.7;
+  line-height: 1.4;
   font-size: 20px;
 }
+.email-form {
+}
+.submit {
+  margin-bottom: 30px;
+  padding: 10px;
+  color: white;
+  background-color: #19c8fa;
+}
+.input-mail {
+  padding: 10px;
+  color: white;
+}
 
+/* >>>>>>>>>>>>>> email desk */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 400px;
+  gap: 30px;
+}
+
+.form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 70px;
+}
+.form input,
+.form textarea {
+  padding: 20px 10px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+.form textarea {
+  padding: 50px 10px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  top: 0;
+  align-items: center;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info h4 {
+  margin-bottom: 25px;
+}
+
+.contact {
+  margin: auto;
+  text-align: center;
+}
+.contact {
+  width: 50%;
+  line-height: 1.6;
+}
+/* >>>>>>>>>>>>>> form desk */
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  margin-top: 200px;
+}
+
+.img-footer {
+  width: 100%;
+  height: 100%;
+  background-image: url("../image/subscribe.jpg");
+  background-size: cover;
+}
+.overlay-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #010c10a9;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.contant-footer {
+  position: absolute;
+  color: white;
+
+  z-index: 3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.contant-footer img {
+  width: 120px;
+  margin-bottom: 40px;
+}
+.p-copyright {
+}
+.container-footer span {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.container-footer i {
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+/* >>>>>>>>>>>>>> footerdesk */
 /* desktop  */
 @media (min-width: 768px) {
   .menu {
@@ -939,7 +1077,6 @@ width: 100%;
     color: white;
     padding: 50px;
   }
-
   .content-video h3 {
     margin-bottom: 20px;
     font-size: 25px;
@@ -960,6 +1097,7 @@ width: 100%;
     color: white;
     padding: 13px 5px;
   }
+
   /* >>>>>>>>>>>>>> video desk */
 
   .about-container {
@@ -1046,100 +1184,201 @@ width: 100%;
     width: 100%;
     height: 300px;
   }
- /* >>>>>>>>>>>>>> prices desk */
+  /* >>>>>>>>>>>>>> prices desk */
 
- .cards-container-parent {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
-}
-.cards-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  width: 80%;
-
-}
-.cards {
-  border-top: 2px solid #19c8fa;
-  border-bottom: 2px solid #19c8fa;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  width: 90%;
-  margin-left: 15px;
-  margin-right: 15px;
-  background-color: #f9f9f9;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-.card-elements ul
-{
-display: flex;
-flex-direction: column;
-gap: 20px;
-list-style-type: none;
-
-}
-.card-content hr 
-{
-  border: none;
-  height: 1px;
-  background-color: #19c8fa;
-}
-.card-elements hr 
-{
-  border: none;
-  height: 1px;
-  background-color: #19c8fa;
-}
-.card-elements li:last-child
-{
-  padding-bottom: 20px;
-}
-.card-content span{
-   display: inline-block;
-   margin-bottom: 20px;
+  .cards-container-parent {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 80%;
+  }
+  .cards {
+    border-top: 2px solid #19c8fa;
+    border-bottom: 2px solid #19c8fa;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #f9f9f9;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .card-elements ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+  }
+  .card-content hr {
+    border: none;
+    height: 1px;
+    background-color: #19c8fa;
+  }
+  .card-elements hr {
+    border: none;
+    height: 1px;
+    background-color: #19c8fa;
+  }
+  .card-elements li:last-child {
+    padding-bottom: 20px;
+  }
+  .card-content span {
+    display: inline-block;
+    margin-bottom: 20px;
     font-size: 60px;
-    font-weight:bold;
-}
-.card-content span::after{
+    font-weight: bold;
+  }
+  .card-content span::after {
     content: "/Mo";
     font-size: 20px;
-}
+  }
 
-.card-content h3 
-{
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-.card-elements hr:first-child
-{
-  margin-top:40px;
-}
-.card-content span::before{
+  .card-content h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .card-elements hr:first-child {
+    margin-top: 40px;
+  }
+  .card-content span::before {
     content: "$";
     font-size: 20px;
     position: relative;
     top: -40px;
+  }
+  .cards-button {
+    margin-top: 20px;
+  }
+  .cards-button button {
+    padding: 20px;
+    border: 1px solid #19c8fa;
+  }
+
+  /* >>>>>>>>>>>>>>  cards desk */
+
+
+.Testimonials-Skills {
+  flex-direction:row;
 }
-.cards-button
-{
+
+.titleTestimonials-Skills {
+  width: 50%;
+  margin: auto;
+}
+.titleTestimonials-Skills h4 {
   margin-top: 20px;
 }
-.cards-button button
-{
-  padding: 20px;
-  border: 1px solid #19c8fa;
+
+.skill {
+  width: 70%;
+  margin: 50px auto;
 }
 
+  /* >>>>>>>>>>>>>>  TESTMONIALS desk */
 
 
 
+  .form-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #010c10a9;
+  }
+  .email-input {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .email-content {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+  }
+  .email-form {
+  }
+  .email-content span {
+    color: white;
+    line-height: 1.7;
+    font-size: 20px;
+  }
 
+  .submit {
+    padding: 10px;
+    color: white;
+    padding: 20px;
+    background-color: #19c8fa;
+    border-style: none;
+  }
+  .input-mail {
+    padding: 20px;
+    color: white;
+    border-style: none;
+  }
+
+  /* >>>>>>>>>>>>>> email desk */
+  .contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    gap: 0px;
+  }
+  .form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 30px;
+  }
+  .form input,
+  .form textarea {
+    padding: 20px 10px;
+  }
+  .form textarea {
+    padding: 50px 10px;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 25%;
+    top: 0;
+  }
+
+  .contact-info p {
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  .contact-info h4 {
+    margin-bottom: 15px;
+    text-align: left;
+  }
 }
+/* >>>>>>>>>>>>>> form desk */
