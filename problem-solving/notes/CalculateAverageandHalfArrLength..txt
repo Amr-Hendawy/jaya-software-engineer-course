@@ -12,6 +12,6 @@
 
 **Output:** The average of the array and half the number of elements, rounded down to the nearest integer.
 
-**File Name:** `calculate-average-and-half-length.js`
+**File Name:** `calculateAverageAndHalfLength.js`
 
 **Function Name:** `calculateAverageAndHalfLength`
