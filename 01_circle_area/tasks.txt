@@ -1,0 +1,4 @@
+- Area Of Parallelogram
+- Area Of Trapezoid
+
+Write and algorithm + flowchart + code (any language that you prefer)
