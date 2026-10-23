@@ -1,0 +1,15 @@
+Task Name: Rotate Array Elements to the Right
+
+Description: Move the last index elements of an array to the beginning while preserving their original order, using the rest parameter to accept the array elements.
+
+Level: Intermediate
+
+Category: Arrays / Rest Parameters / Array Methods
+
+Input: A number representing how many elements to move, followed by the array elements.
+
+Output: The array after moving the specified number of elements from the end to the beginning.
+
+File Name: rotateArrayElementsRight.js
+
+Function Name: rotateArrayRight

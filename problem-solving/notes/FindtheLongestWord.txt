@@ -1,0 +1,13 @@
+**Task Name:** Find the Longest Word in a String
+
+**Description:** Split a string into an array of words, then find the word with the greatest length by comparing the length of each word with the current maximum length.
+
+**Level:** Beginner
+
+**Category:** Strings / Arrays / Loops / Problem Solving
+
+**Input:** A string containing multiple words separated by spaces.
+
+**Output:** The longest word in the string.
+
+**File Name:** `findLongestWord.js`
