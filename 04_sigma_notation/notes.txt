@@ -1,0 +1,9 @@
+Task for the week 
+- THere is a level of optimization
+
+
+- Correlation Coffient 
+ - Formula 
+ - Algorithm 
+ - flowchart
+ - code (At least one prefered programing language )
