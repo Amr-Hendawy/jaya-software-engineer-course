@@ -1,3 +1,4 @@
+<<<<<<< HEAD:rotateArrayElementsRight.js
 // let newArray = 0;
 // function arrayNum(index, ...arr) {
 //   newArray = arr.splice(-index, arr.length);
@@ -44,3 +45,12 @@ function rotateArrayElementsRightWithTarget(arr, k) {
 let nums = [1,2,3,4,5,6];
 
 console.log(rotateArrayElementsRightWithTarget(nums, 3));
+=======
+let newArray = 0;
+function arrayNum(index, ...arr) {
+  newArray = arr.splice(-index, arr.length);
+  arr.unshift(newArray);
+  return arr;
+}
+console.log(arrayNum(2, 1, 2, 3, 4, 5, 6));
+>>>>>>> origin/problem-solving:problem-solving/rotateArrayElementsRight.js
