@@ -19,4 +19,17 @@ Tasks 10/10/2026
 Find max diffing between numbers
 ==> 2 5 9 10 12 23 ==> 21
 
-==> Find the second Repeating Number 
+==> Sum and count digits
+----------------------------------
+input 453
+output : count ==> 3
+        sum ==> 12
+        using modulus %  and division / 
+
+==> Remove specific number
+--------------------------
+input 12342
+target 2
+output 134
+============================================
+
