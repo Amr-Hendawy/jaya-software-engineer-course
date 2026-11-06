@@ -1,0 +1,22 @@
+Task Name: Remove Specific Number
+
+Description: Remove all occurrences of a specific digit from a given number and return the resulting number. Use the modulus % operator and division / to extract and process each digit.
+
+Level: Beginner
+
+Category: Loops / Math
+
+Input: A number and a target digit to remove.
+
+Output: The number after removing all occurrences of the target digit.
+
+Example:
+Input: 12342
+Target: 2
+
+Output: 134
+
+
+File Name: removeSpecificNumber.js
+
+Function Name: removeSpecificNumber

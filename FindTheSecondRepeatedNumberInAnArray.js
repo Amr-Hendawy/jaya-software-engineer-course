@@ -10,4 +10,4 @@ function findSecondRepeatedNumber(...arr) {
   return newarr[1];
 }
 
-console.log(findSecondRepeatedNumber(10, 20, 30, 20, 40, 30));
+console.log(findSecondRepeatedNumber(10, 20, 30, 20, 40, 30)) ;

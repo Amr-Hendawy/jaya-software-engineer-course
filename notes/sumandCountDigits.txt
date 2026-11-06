@@ -1,0 +1,23 @@
+Task Name: Sum and Count Digits
+
+Description: Calculate the sum of all digits in a given number and count how many digits it contains. Use the modulus % operator to extract each digit and division / to remove the last digit.
+
+Level: Beginner
+
+Category: Loops / Math
+
+Input: A number.
+
+Output: The sum of its digits and the total count of its digits.
+
+Example:
+Input: 453
+
+Output:
+count ==> 3
+sum ==> 12
+
+
+File Name: sumAndCountDigits.js
+
+Function Name: sumAndCountDigits
