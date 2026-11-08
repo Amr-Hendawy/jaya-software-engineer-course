@@ -17,11 +17,13 @@ function correlationcoefficient() {
   for (let i = 0; i < n; i++) {
     x[i] = +prompt("please enter the x arr");
     x.push(x[i]);
+    // x.push(+prompt("please enter the x arr"))
     totalSumX += x[i];
     PowerX += x[i] ** 2; // ΣX2
-
-    totalPowX = totalSumX ** 2; // (ΣX)2
   }
+
+  totalPowX = totalSumX ** 2; // (ΣX)2
+  
   for (let i = 0; i < n; i++) {
     y[i] = +prompt("please enter the y arr");
     y.push(y[i]);
