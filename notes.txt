@@ -19,7 +19,6 @@ Tasks 10/10/2026
 Find max diffing between numbers
 ==> 2 5 9 10 12 23 ==> 21
 
-<<<<<<< HEAD:notes.txt
 ==> Sum and count digits
 ----------------------------------
 input 453
@@ -34,6 +33,9 @@ target 2
 output 134
 ============================================
 
-=======
 ==> Find the second Repeating Number 
->>>>>>> origin/problem-solving:problem-solving/notes.txt
+=============================================
+==> compress the string 
+input aaabbbbbcdddddd
+output a3b4c1d5 
+=============================================
