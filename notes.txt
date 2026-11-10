@@ -34,3 +34,11 @@ output 134
 ============================================
 
 ==> Find the second Repeating Number 
+
+=======
+=============================================
+==> compress the string 
+input aaabbbbbcdddddd
+output a3b4c1d5 
+=============================================
+
