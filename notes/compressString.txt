@@ -1,0 +1,19 @@
+Task Name: Compress the String
+
+Description: Compress a string by counting the consecutive occurrences of each character and returning the character followed by its count.
+
+Level: Beginner
+
+Category: Strings / Loops
+
+Input: A string of characters.
+
+Output: A compressed string where each character is followed by the number of its consecutive occurrences.
+
+Example:
+Input: "aaabbbbbcdddddd"
+Output: "a3b5c1d6"
+
+File Name: compressString.js
+
+Function Name: compressString
